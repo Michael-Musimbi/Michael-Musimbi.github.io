@@ -14,14 +14,16 @@ body{
     padding: 0px;
     width: 100%;
     height:auto;
+    background-color: #19d715;
 }
 /*Home div*/
 .home{
   width: 100%;
-  height: 600px;
+  height: auto;
   background-color: #19d715;
   display: block;
   float: left;
+  margin-top: 40px;
 }
 
 /*navigation div*/
@@ -115,14 +117,15 @@ display: block;
   width: 33.3%;
   height: 400px;
   background-color: black;
-  margin-left: 5px;
+  margin-left: 0;
+  float: left;
 }
 
 .b{
   width: 33.3%;
   height: 400px;
   background-color: black;
-  float: none;
+  float: left;
 }
 
 .c{
@@ -140,6 +143,7 @@ display: block;
   float: right;
   overflow: hidden;
   display: block;
+  background-color: gold;
 }
 
 /*Contact text*/
@@ -150,4 +154,6 @@ display: block;
 /*Footer text*/
 .footer{
   text-align: center;
+  margin-bottom: 40px;
+  background-color: gold;
 }
